@@ -1,0 +1,40 @@
+Visual Studio
+
+Public Class Myfunctions
+
+Public Function AddMyValues(ByVal Value1 As Double, ByVal Value2 As Double)
+
+Dim Result As Double
+
+Result = Value1 + Value2
+
+Return Result
+
+End Function
+
+Imports ClassLibrary1
+
+Public Class Form1
+
+Private Sub Button1_Click(ByVal sender As System.Object, ByVal e System.EventArgs) Handles Button1.Click As
+
+Dim Obj As New ClassLibrary 1.Myfunctions TextBox3.Text =
+
+Obj.AddMyValues (CDbl(TextBox1.Text), CDbl(TextBox2.Text)).ToString
+
+End Sub
+
+End Class
+
+
+
+NetBeans
+int a,b,c;
+
+a=Integer.parseInt(jTextField1.getText());
+
+b=Integer.parseInt(jTextField2.getText()),
+
+c=a+b;
+
+jTextField3.setText(""+c);
